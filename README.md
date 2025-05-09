@@ -1,5 +1,5 @@
 📄 Final Project Report: Deep Learning – Emotion Detection from Video Using YOLO
-1. Project Proposal (1 point)
+1. Project Proposal 
 Title:
 Real-Time Emotion Detection in Video Using YOLOv8 and Facial Expression Recognition
 
@@ -17,9 +17,9 @@ A full pipeline to run inference on video and extract per-class emotion counts.
 
 Insights about the general sentiment expressed in the video.
 
-2. Data Collection & Preprocessing (1.5 points)
+2. Data Collection & Preprocessing 
 Dataset:
-We used the [AffectNet] or [FER2013] dataset, which contains labeled facial images across multiple emotion classes like happy, sad, angry, surprised, neutral, etc.
+We used the [AffectNet] dataset, which contains labeled facial images across multiple emotion classes like happy, sad, angry, surprised, neutral, etc.
 
 Preprocessing Steps:
 
@@ -34,7 +34,7 @@ Applied normalization, face alignment (optional), and data augmentation (flip, b
 Documentation:
 All data transformations and file structure were maintained in a YOLO_format/ directory with a proper data.yaml config file.
 
-3. Exploratory Data Analysis (1 point)
+3. Exploratory Data Analysis 
 Performed:
 
 Class distribution analysis (some emotions were underrepresented).
@@ -49,7 +49,7 @@ Dataset was slightly imbalanced, which we considered during training.
 
 Augmentation helped mitigate the skew.
 
-4. Model Selection & Justification (1 point)
+4. Model Selection & Justification 
 Model Chosen: YOLOv8 (Nano variant for real-time inference)
 
 Justification:
@@ -60,7 +60,7 @@ Ideal for object detection + classification in videos.
 
 Custom training is straightforward, and export to ONNX/TFLite is available for deployment.
 
-5. Model Training & Validation (1.5 points)
+5. Model Training & Validation
 Training Details:
 
 
@@ -86,7 +86,7 @@ Precision: 0.68
 
 Recall: 0.71
 
-6. Hyperparameter Tuning (1 point)
+6. Hyperparameter Tuning
 We tuned the following:
 
 Batch size (limited by GPU memory — 32 was optimal)
@@ -101,7 +101,7 @@ Improvements:
 
 mAP improved by ~5% after tuning learning rate and warmup settings.
 
-7. Deployment Demonstration (1.5 points)
+7. Deployment Demonstration 
 A complete pipeline was developed to:
 
 Load a video
@@ -119,7 +119,7 @@ From this we inferred:
 
 The dominant emotion in the video was "neutral", followed by "happy".
 
-8. Documentation & Code Quality (0.5 points)
+8. Documentation & Code Quality 
 ✅ All code was modular, clean, and well-commented.
 ✅ Jupyter notebook included with:
 
@@ -131,7 +131,7 @@ Visualization of detections
 ✅ Inference results were visualized inline using matplotlib.
 ✅ Dependencies were listed in requirements.txt.
 
-9. Final Presentation & Report (1 point)
+9. Final Presentation & Report 
 This report, along with the final presentation, includes:
 
 Problem motivation
