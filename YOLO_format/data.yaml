@@ -1,0 +1,20 @@
+train: /Users/nt/downloads/ml_3year_final/YOLO_format/train/images
+val:   /Users/nt/downloads/ml_3year_final/YOLO_format/valid/images
+test:  /Users/nt/downloads/ml_3year_final/YOLO_format/test/images
+
+nc: 8
+
+names:
+  [
+    "Anger",
+    "Contempt",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Neutral",
+    "Sad",
+    "Surprise",
+  ]
+
+# Network configuration (choose other variations if desired)
+network: "yolov11s"
