@@ -1,6 +1,6 @@
-train: /Users/nt/downloads/ml_3year_final/YOLO_format/train/images
-val:   /Users/nt/downloads/ml_3year_final/YOLO_format/valid/images
-test:  /Users/nt/downloads/ml_3year_final/YOLO_format/test/images
+train: D:\TSI college\Machine_Learning\ml_3rd_year_project\YOLO_format/train/images
+val:   D:\TSI college\Machine_Learning\ml_3rd_year_project\YOLO_format/valid/images
+test:  D:\TSI college\Machine_Learning\ml_3rd_year_project\YOLO_format/YOLO_format/test/images
 
 nc: 8
 
@@ -16,5 +16,4 @@ names:
     "Surprise",
   ]
 
-# Network configuration (choose other variations if desired)
-network: "yolov11s"
+
